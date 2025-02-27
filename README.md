@@ -13,7 +13,9 @@ The Kalman Filter operates in two main steps:
 ✅ **Reduces noise** in sensor data  
 ✅ **Optimally combines** multiple sources of information  
 ✅ **Efficient** and works in real-time  
-##Implemetations 
+
+....................................................................
+## Implemetations 
 
 #### 1. 1D Kalman Filter for Position Estimation with Constant Velocity  
 This C++ program implements a **1D Kalman Filter** to estimate the position of an object moving with a **constant velocity**.  
@@ -24,4 +26,4 @@ This C++ program implements a **1D Kalman Filter** to estimate the position of a
 - The **Kalman Gain (\( K \))** determines how much the measurement influences the estimate.  
 
 #### 🚀 Code Implementation  
-Check out the full **C++ implementation** in the [`kalman_filter.cpp`](./kalman_filter.cpp) file.  
+Check out the full **C++ implementation** in the [`KF_1D_Position_Tracking.cpp`](./KF_1D_Position_Tracking.cpp) file.  
