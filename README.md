@@ -27,3 +27,16 @@ This C++ program implements a **1D Kalman Filter** to estimate the position of a
 
 #### 🚀 Code Implementation  
 Check out the full **C++ implementation** in the [`KF_1D_Position_Tracking.cpp`](./KF_1D_Position_Tracking.cpp) file.  
+
+....................................................................
+
+#### 2. 2D Kalman Filter for Motion Tracking
+This version extends the Kalman Filter to 2D space, tracking both X and Y coordinates along with their respective velocities.
+
+#### Key Points:  
+- Tracks position and velocity in X and Y directions.  
+- Uses a constant velocity motion model.
+- Measurement updates improve accuracy by reducing sensor noise.
+
+#### 🚀 Code Implementation  
+Check out the full **C++ implementation** in the [`KF_2D_Motion_Tracking.cpp`](./KF_2D_Motion_Tracking.cpp) file.  
